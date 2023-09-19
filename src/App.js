@@ -22,4 +22,9 @@ function App() {
   );
 }
 
+// export function Test() {
+//   return <></>
+// }
+
+// bu dosyadan sadece APP dışarı çaıkabilir.
 export default App;

@@ -1,15 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+
 import reportWebVitals from './reportWebVitals';
+import App from './App';
+import Counter from './Counter';
+import Conditions from './Conditions';
+import MyButton from './MyButton';
+// import { App, Test } from './App';
+// import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* Control + C */}
+    <Counter defautCounterValue={10} />
+    {/* <Conditions /> */}
+    {<MyButton />}
+    {<MyButton cssName={'btn secondary'} text='Button2' />}
+    {/* <Counter></Counter> */}
   </React.StrictMode>
 );
+
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
